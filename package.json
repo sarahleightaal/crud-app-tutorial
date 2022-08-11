@@ -1,0 +1,26 @@
+{
+  "name": "crud-app-tutorial",
+  "version": "1.0.0",
+  "description": "First CRUD app - class tutorial",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahleightaal/crud-app-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarahleightaal/crud-app-tutorial/issues"
+  },
+  "homepage": "https://github.com/sarahleightaal/crud-app-tutorial#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
