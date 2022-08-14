@@ -5,11 +5,20 @@ const userRouter = require("./routes/users")
 app.use("/users", userRouter)
 
 //needed for adding a document
+// const bodyParser = require("body-parser")
+// app.use(bodyParser.urlencoded({
+//     extended: true
+// }))
+// app.use(bodyParser.json())
+
 const bodyParser = require("body-parser")
 app.use(bodyParser.urlencoded({
     extended: true
 }))
 app.use(bodyParser.json())
+
+const userRouter = require("./routes/user")
+app.use("/users", userRouter)
 
 app.listen(3000)
 
